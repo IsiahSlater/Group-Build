@@ -22,27 +22,47 @@
 .container-fluid{
   padding: 0;
 }
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
 .row{
-  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .fixed-top{
   background: #436a61;
   height: 9vh;
 }
-h1,h2,p,a{
+h1,h2,p,a,small{
   font-family: Avenir, sans-serif;
 }
 p{
   font-size: 30px;
   font-weight: 100;
 }
+small{
+  font-weight: 100;
+}
+.navbar-nav{
+  padding-left: 3em;
+  padding-right: 3em;
+}
 nav a{
   color: white;
   font-size: 30px;
 }
-nav a:hover{
+nav a:hover, nav a:active{
   font-weight: bold;
   color: white;
+}
+li{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.active{
+  font-weight: bold;
 }
 h2, h1{
   text-align: center;
@@ -67,4 +87,17 @@ h2{
 }
 .space{
   padding: 90px;
+}
+.green{
+  background: #436a61;
+}
+.green > *, .orange > *{
+  color: white;
+  text-align: center;
+}
+.item{
+  border: 1px black solid;
+}
+.orange{
+  background: #db8545;
 }
