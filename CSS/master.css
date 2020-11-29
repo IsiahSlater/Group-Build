@@ -25,11 +25,28 @@
 .container{
   padding-top: 30px;
   padding-bottom: 30px;
+  max-width: 1400px;
 
 }
 .row{
   margin-left: 0;
   margin-right: 0;
+}
+
+.same img{
+  height: 35vh;
+  width: 100%;
+  object-fit: contain;
+}
+.same p{
+  text-align: center;
+  color: black;
+  font-weight: normal;
+}
+.border-10{
+  border: 10px black solid;
+  margin: 0 40px;
+  padding: 0;
 }
 .fixed-top{
   background: #436a61;
@@ -39,8 +56,9 @@ h1,h2,p,a,small{
   font-family: Avenir, sans-serif;
 }
 p{
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 100;
+  padding: 20px; auto;
 }
 small{
   font-weight: 100;
@@ -56,6 +74,9 @@ nav a{
 nav a:hover, nav a:active{
   font-weight: bold;
   color: white;
+}
+nav img{
+  width: 60px;
 }
 li{
   margin-top: auto;
@@ -95,8 +116,22 @@ h2{
   color: white;
   text-align: center;
 }
+.green img{
+  width: 80%;
+  height: 20vh;
+  object-fit: contain;
+}
 .item{
+  border: 5px black solid;
+  margin: 20px auto;
+}
+.item img{
   border: 1px black solid;
+  margin-top: 50px;
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .orange{
   background: #db8545;
