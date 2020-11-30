@@ -38,7 +38,21 @@
     font-weight: bold;
     color: #436a61;
   }
-  .nav-item{
+  .navbar-custom .dropdown-menu {
+      background-color: #f9ecd2;
+      border: 0;
+  }
+
+  .navbar-custom .dropdown-item {
+      color: #436a61;
+  }
+
+  .navbar-custom .dropdown-item:hover,
+  .navbar-custom .dropdown-item:focus {
+      background-color: #f9ecd2;
+      font-weight: bold;
+  }
+  .nav-item, .dropdown-item{
     margin-top: 20px;
   }
 }

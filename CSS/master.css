@@ -76,17 +76,18 @@ small{
 }
 
 .navbar-custom .dropdown-menu {
-    background-color: #f9ecd2;
+    background-color: #A0B4B0;
 }
 
 .navbar-custom .dropdown-item {
-    color: #436a61;
+    color: white;
+    font-size: 20px;
 }
 
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
-    color: #191919;
-    background: #23cc23;
+    background-color: #A0B4B0;
+    font-weight: bold;
 }
 .bg-custom{
   background: #436a61;

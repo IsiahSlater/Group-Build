@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-custom  fixed-top justify-content-sm-between" id="sidebar">
 
-        <a href="#" class="navbar-brand active"><img src="Images/Logo.png" alt="ZeroX"> </a>
+        <a href="index.htm" class="navbar-brand active"><img src="Images/Logo.png" alt="ZeroX"> </a>
         <a href="#" class="navbar-brand float-right d-block order-md-1 order-0"><img src="Images/cart.png" alt="Cart" class="float-right"> </a>
 
         <!-- Sandwich Start -->
@@ -35,8 +35,14 @@
         <div class="collapse navbar-collapse bg-custom p-3 p-md-0 mt-md-0 d-flex flex-column flex-md-row justify-content-md-end mobileMenu" id="navbarCustom">
           <ul class="navbar-nav align-self-stretch w-100 justify-content-between">
             <li class="nav-item"> <a href="ourStory.htm" class="nav-link">Our Story</a> </li>
-            <li class="nav-item"> <a href="solarPolar.htm" class="nav-link">Coolers</a> </li>
-            <li class="nav-item"> <a href="#" class="nav-link">What's New</a> </li>
+            <li class="nav-item dropdown">
+              <a href="solarPolar.htm" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Coolers</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Soft Coolers</a>
+                <a href="solarPolar.htm" class="dropdown-item">Hard Coolers</a>
+              </div>
+            </li>
+            <li class="nav-item"> <a href="solarPolar.htm" class="nav-link">What's New</a> </li>
             <li class="nav-item"> <a href="#" class="nav-link">Customs</a> </li>
           </ul>
         </div>
