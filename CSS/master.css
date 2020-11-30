@@ -27,6 +27,7 @@
   padding-bottom: 30px;
   max-width: 1400px;
 }
+
 .center{
   text-align: center;
 }
@@ -34,25 +35,12 @@
   margin-left: 0;
   margin-right: 0;
 }
-
-.same img{
-  height: 35vh;
-  width: 100%;
-  object-fit: contain;
-}
-.same p{
-  text-align: center;
-  color: black;
-  font-weight: normal;
-}
 .border-10{
   border: 10px black solid;
-  margin: 0 40px;
+  margin: 0 2%;
   padding: 0;
 }
 .fixed-top{
-  background: #436a61;
-  height: 9vh;
 }
 h1,h2,p,a,small{
   font-family: Avenir, sans-serif;
@@ -69,13 +57,44 @@ small{
   padding-left: 3em;
   padding-right: 3em;
 }
-nav a{
-  color: white;
-  font-size: 30px;
+.navbar-custom{
+  background: #436a61;
 }
-nav a:hover, nav a:active{
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white;
+
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+  font-size: 25px;
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
   font-weight: bold;
   color: white;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #f9ecd2;
+}
+
+.navbar-custom .dropdown-item {
+    color: #436a61;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #191919;
+    background: #23cc23;
+}
+.bg-custom{
+  background: #436a61;
+}
+
+
+nav a:hover, nav a:active{
+  font-weight: bold;
 }
 nav img{
   width: 60px;
@@ -98,6 +117,18 @@ h1{
 h2{
   font-size: 60px;
 }
+.same img{
+  height: 30vh;
+  width: 100%;
+  object-fit: contain;
+}
+.same p{
+  text-align: center;
+  color: black;
+  font-weight: normal;
+  display: block;
+  font-size: 2vw;
+}
 .foot{
   background: #436a61;
   margin: 0;
@@ -108,8 +139,11 @@ h2{
 .foot img{
   width: 300px;
 }
+.foot p{
+
+}
 .space{
-  padding: 90px;
+  padding: 5%;
 }
 .green{
   background: #436a61;
