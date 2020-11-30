@@ -189,6 +189,11 @@ h2{
   margin: 0;
   padding: 30px;
 }
+.click:hover, .click:active{
+  background: white;
+  border: 2px #436a61 solid;
+  color: #436a61;
+}
 .orange{
   background: #db8545;
 }
