@@ -26,7 +26,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
   max-width: 1400px;
-
+}
+.center{
+  text-align: center;
 }
 .row{
   margin-left: 0;
@@ -124,15 +126,40 @@ h2{
 .item{
   border: 5px black solid;
   margin: 20px auto;
+  padding: 60px;
 }
 .item img{
   border: 1px black solid;
-  margin-top: 50px;
-  width: 85%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.item p{
+  margin: 0;
+  margin-top: 25px;
+  padding:0;
+  font-weight: normal;
+
+}
+.item button{
+  color: white;
+  background: #436a61;
+  padding: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+.item button p{
+  margin: 0;
+  padding: 30px;
+}
 .orange{
   background: #db8545;
+}
+.orange p{
+  padding-bottom: 0;
+}
+.topSpace{
+  margin-top: 10vh;
 }
