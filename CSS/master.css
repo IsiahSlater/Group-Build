@@ -44,6 +44,7 @@
 }
 h1,h2,p,a,small{
   font-family: Avenir, sans-serif;
+  max-width: 100vw;
 }
 p{
   font-size: 36px;
@@ -106,6 +107,9 @@ li{
 }
 .active{
   font-weight: bold;
+}
+.outdoors{
+  margin-top: 3em;
 }
 h2, h1{
   text-align: center;
