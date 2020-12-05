@@ -12,6 +12,58 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="JS/script.js"></script>
+    <script type="text/javascript">
+      //size 12 interface
+      function red12(){
+        document.getElementById("12").style.filter = "hue-rotate(115deg)";
+      }
+      function pink12(){
+        document.getElementById("12").style.filter = "hue-rotate(90deg)";
+      }
+      function green12(){
+        document.getElementById("12").style.filter = "hue-rotate(-90deg)";
+      }
+      function aqua12(){
+        document.getElementById("12").style.filter = "hue-rotate(-45deg)";
+      }
+      function blue12(){
+          document.getElementById("12").style.filter = "hue-rotate(0deg)";
+      }
+
+      //size 24 interface
+      function red24(){
+        document.getElementById("24").style.filter = "hue-rotate(115deg)";
+      }
+      function pink24(){
+        document.getElementById("24").style.filter = "hue-rotate(90deg)";
+      }
+      function green24(){
+        document.getElementById("24").style.filter = "hue-rotate(-90deg)";
+      }
+      function aqua24(){
+        document.getElementById("24").style.filter = "hue-rotate(-45deg)";
+      }
+      function blue24(){
+          document.getElementById("24").style.filter = "hue-rotate(0deg)";
+      }
+
+      //size 64 interface
+      function red64(){
+        document.getElementById("64").style.filter = "hue-rotate(115deg)";
+      }
+      function pink64(){
+        document.getElementById("64").style.filter = "hue-rotate(90deg)";
+      }
+      function green64(){
+        document.getElementById("64").style.filter = "hue-rotate(-90deg)";
+      }
+      function aqua64(){
+        document.getElementById("64").style.filter = "hue-rotate(-45deg)";
+      }
+      function blue64(){
+        document.getElementById("64").style.filter = "hue-rotate(0deg)";
+      }
+    </script>
     <title>ZeroX</title>
   </head>
   <body>
@@ -90,20 +142,68 @@
         <div class="container center">
           <div class="row justify-content-between">
             <div class="col-sm-5 item">
-              <img src="Images/solarPolarS.jpg" alt="cooler" class="img-fluid">
+              <img src="Images/solarPolarS.jpg" alt="cooler" class="img-fluid" id="12">
               <p>Solar Polar 12</p>
+              <svg height="50" width="50" class="aqu"
+              OnMouseOver="aqua12()" onmouseout="blue12()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="mediumaquamarine" />
+              </svg>
+              <svg height="50" width="50" class="red"
+              OnMouseOver="red12()" onmouseout="blue12()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="red" />
+              </svg>
+              <svg height="50" width="50" class="grn"
+              OnMouseOver="green12()" onmouseout="blue12()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="limegreen" />
+              </svg>
+              <svg height="50" width="50"
+              OnMouseOver="pink12()" onmouseout="blue12()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="pink" />
+              </svg>
               <p>$250</p>
             </div>
             <div class="col-sm-5 item">
-              <img src="Images/solarPolarM.jpg" alt="cooler" class="img-fluid">
+              <img src="Images/solarPolarM.jpg" alt="cooler" class="img-fluid" id="24">
               <p>Solar Polar 24</p>
+              <svg height="50" width="50" class="aqu"
+              OnMouseOver="aqua24()" onmouseout="blue24()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="mediumaquamarine" />
+              </svg>
+              <svg height="50" width="50" class="red"
+              OnMouseOver="red24()" onmouseout="blue24()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="red" />
+              </svg>
+              <svg height="50" width="50" class="grn"
+              OnMouseOver="green24()" onmouseout="blue24()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="limegreen" />
+              </svg>
+              <svg height="50" width="50"
+              OnMouseOver="pink24()" onmouseout="blue24()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="pink" />
+              </svg>
               <p>$250</p>
             </div>
           </div>
           <div class="row justify-content-between">
             <div class="col-sm-5 item">
-              <img src="Images/solarPolar.jpg" alt="cooler" class="img-fluid">
+              <img src="Images/solarPolar.jpg" alt="cooler" class="img-fluid" id="64">
               <p>Solar Polar 64</p>
+              <svg height="50" width="50" class="aqu"
+              OnMouseOver="aqua64()" onmouseout="blue64()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="mediumaquamarine" />
+              </svg>
+              <svg height="50" width="50" class="red"
+              OnMouseOver="red64()" onmouseout="blue64()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="red" />
+              </svg>
+              <svg height="50" width="50" class="grn"
+              OnMouseOver="green64()" onmouseout="blue64()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="limegreen" />
+              </svg>
+              <svg height="50" width="50"
+              OnMouseOver="pink64()" onmouseout="blue64()">
+                <circle cx="25" cy="25" r="25" stroke="black" stroke-width="0" fill="pink" />
+              </svg>
               <p>$250</p>
             </div>
             <div class="col-sm-5 item">
@@ -116,19 +216,19 @@
         <!-- Orange -->
         <div class="orange">
           <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="Images/" alt="Warantee">
+            <div class="row align-items-start">
+              <div class="col-sm-4 mb-3">
+                <img src="Images/warantee.png" alt="Warantee" class="img-fluid">
                 <p>One Year Warranty</p>
                 <small>Additional included with extra charge</small>
               </div>
-              <div class="col-sm-4">
-                <img src="" alt="Longevity">
+              <div class="col-sm-4 mb-3">
+                <img src="Images/cold.png" alt="Longevity" class="img-fluid">
                 <p>12 day ice retention</p>
                 <small>Keep drinks and snacks cold</small>
               </div>
-              <div class="col-sm-4">
-                <img src="" alt="Satisfaction">
+              <div class="col-sm-4 mb-3">
+                <img src="Images/thumb.png" alt="Satisfaction" class="img-fluid">
                 <p>100% Satisfaction Guarantee</p>
                 <small>Or your money back</small>
               </div>
@@ -144,15 +244,14 @@
         </div>
       </div>
 
-      <!-- Footer -->
-      <div class="row foot align-items-center">
-        <div class="col-sm-8 space">
+      <div class="row foot align-items-start">
+        <div class="col-md-8 space">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-sm-6">
-                <img src="Images/logo.png" alt="ZeroX" class="">
+              <div class="col-sm-4">
+                <img src="Images/logo.png" alt="ZeroX" class="img-fluid">
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-8">
                 <p>Email: ZeroX@coolers.com</p>
                 <p>Phone: (123) 456 7890</p>
               </div>
@@ -160,13 +259,17 @@
           </div>
 
         </div>
-        <div class="col-sm-4 space">
+        <div class="col-md-4 space">
           <h2>Follow Us!</h2>
-          <div class="btn-group">
-            <button type="button" class="btn btn-outline-light">FB</button>
-            <button type="button" class="btn btn-outline-light">TW</button>
-            <button type="button" class="btn btn-outline-light">PT</button>
-            <button type="button" class="btn btn-outline-light">IG</button>
+          <div class="btn-group no-bdr">
+            <button type="button" class="btn btn-outline-light">
+            <img src="Images/facebook.png" alt="FB" class="img-fluid"> </button>
+            <button type="button" class="btn btn-outline-light"><img src="Images/twitter.png" alt="FB" class="img-fluid">
+            </button>
+            <button type="button" class="btn btn-outline-light"><img src="Images/pinterest.png" alt="FB" class="img-fluid">
+            </button>
+            <button type="button" class="btn btn-outline-light"><img src="Images/insta.png" alt="FB" class="img-fluid">
+            </button>
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+
+
 @media (max-width: 767px){
   .mobileMenu{
     position: fixed;
@@ -55,6 +57,9 @@
   .nav-item, .dropdown-item{
     margin-top: 20px;
   }
+  svg{
+    display: none;
+  }
   h1,h2{
     font-size: 60px;
   }
@@ -63,6 +68,11 @@
   }
   .foot p{
     text-align: center;
+  }
+  .foot img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .same p{
     font-size: 25px;
